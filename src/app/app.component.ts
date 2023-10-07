@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import template from './app.component.html';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MasterClass';
+
+  /**
+   *
+   */
+  constructor() {
+    console.log(template);
+  }
 }
