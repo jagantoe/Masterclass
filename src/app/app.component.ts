@@ -7,7 +7,7 @@ import template from './app.component.html';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'MasterClass';
+  title = 'Masterclass';
 
   constructor() {
     console.log(template);

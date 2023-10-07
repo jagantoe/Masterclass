@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "MasterClass": {
+    "Masterclass": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
             "customWebpackConfig": {
               "path": "./webpack.custom.ts"
             },
-            "outputPath": "dist/master-class",
+            "outputPath": "dist/masterclass",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -68,10 +68,10 @@
           "builder": "@angular-builders/custom-webpack:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "MasterClass:build:production"
+              "browserTarget": "Masterclass:build:production"
             },
             "development": {
-              "browserTarget": "MasterClass:build:development"
+              "browserTarget": "Masterclass:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "MasterClass:build"
+            "browserTarget": "Masterclass:build"
           }
         },
         "test": {
