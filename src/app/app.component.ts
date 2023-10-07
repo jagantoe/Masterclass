@@ -9,9 +9,6 @@ import template from './app.component.html';
 export class AppComponent {
   title = 'MasterClass';
 
-  /**
-   *
-   */
   constructor() {
     console.log(template);
   }
