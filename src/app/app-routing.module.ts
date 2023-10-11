@@ -31,6 +31,10 @@ const routes: Routes = [
         component: DataComponent
       }
     ]
+  },
+  {
+    path: "**",
+    redirectTo: "demo/basic"
   }
 ];
 
