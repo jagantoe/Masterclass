@@ -1,0 +1,14 @@
+<div class="flex flex-col md:flex-row items-center">
+    <div class="border border-gray-500 rounded bg-opacity-50 w-1/2 p-5">
+        <ng-content />
+    </div>
+    <div class="flex flex-col w-1/2 p-5 border border-gray-500 rounded divide-y divide-dashed">
+        <div class="h-1/2 whitespace-pre-wrap overflow-auto">
+            <p class="text-lg">Code:</p>
+            <p>{{template}}</p>
+        </div>
+        <div class="h-1/2">
+            here comes preview
+        </div>
+    </div>
+</div>
